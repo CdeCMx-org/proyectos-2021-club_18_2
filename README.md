@@ -4,7 +4,7 @@
 Luis Carlos
 Alejandro Ruiz Diego
 ### Nombre del proyecto    
-***#### Explorando el espacio a través de la pantalla: Ciencia de datos como apoyo al diseño de misiones espaciales.***
+**Explorando el espacio a través de la pantalla: Ciencia de datos como apoyo al diseño de misiones espaciales***
 
 ### What does this project do?
 
