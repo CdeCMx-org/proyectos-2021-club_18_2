@@ -7,7 +7,8 @@
 Luis Carlos
 [Alejandro Ruiz Diego](https://github.com/AlejandroRD98)
 
-### What does this project do?
+### ¿Qué hace este proyecto?
+Con este proyecto buscamos mostrar como las herramientas de la ciencia computacional pueden apoyar para el estudio del espacio y el diseño de viajes de viajes espaciales. Para lograr nuestro objetivo analizamos una base de datos de más de 4000 satélites, adicionalmente con la información del dataset desarrollamos un mapa que permita observar la cantidad de satélites que orbitan al redor de la Tierra. 
 
 ### Who did you design this project for?
 
