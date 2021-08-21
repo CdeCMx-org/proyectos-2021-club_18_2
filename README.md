@@ -1,4 +1,4 @@
-# Code Nation Hackathon: README Template
+# Clunes de Ciencia 2021 ![e](Logo_CdeCMx.png)
 
 Edit the README to answer the following questions before you submit your project.
 
