@@ -1,10 +1,10 @@
 # Clunes de Ciencia 2021 ![e](Logo_CdeCMx.png)
 
-Edit the README to answer the following questions before you submit your project.
-
 ### Your Project Members
 Luis Carlos
+Alejandro Ruiz Diego
 ### What is the name of your project?    
+####Explorando el espacio a través de la pantalla: Ciencia de datos como apoyo al diseño de misiones espaciales
 
 ### What does this project do?
 
