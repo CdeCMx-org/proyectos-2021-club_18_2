@@ -26,7 +26,7 @@
     </head>
     <body id="page-top">
         <header>
-            <img src="Logo_CdeCMx.png" class="center" width="100" >
+         
         </header>
           
           <nav>
@@ -69,14 +69,6 @@
             <p style="text-align: center;"><iframe width="560" height="314" src="//www.youtube.com/embed/VYxYuaDvdM0" allowfullscreen="allowfullscreen"></iframe></p>
 	    <section id="section-1">
               <h2><i class="fas fa-plus-square"></i></i> Description</h2>
-	      <p style="text-align: justify;">Al estar en la Tierra estamos acostumbrados a ver maquinaria industrial: tractores, grúas, camiones, etc. 
-              Hemos adoptado estas máquinas como parte de nuestro ambiente y desgraciadamente, en ocasiones abruman nuestro entorno. El hecho de que no podamos ver 
-             los objetos que orbitan nuestro planeta no significa que su presencia sea mínima. Para nuestro challenge, queremos crear una “data visualization tool” que ayude a
-	     visualizar la cantidad de satélites y demás objetos que vuelan alrededor de nuestro planeta porque a final de cuenta son los tractores, grúas y camiones de nuestro 
-             espacio exterior. Trabajaremos con un dataset que contiene los satélites que se han mandado al espacio durante los últimos ~ 30 años (contiene información de su 
-             periodo, apogeo, perigeo) para crear las gráficas adecuadas con la intención de compartir el estado de nuestro espacio exterior.<p>
-
-
               <!-- <h3>According to the conclusion of Lu's study [1], there's an existing risk of COVID-19 infection in relation with indoor air flow.
                 With this web page, our main goal is to create awareness among society and prevent new transmissions of coronavirus, by showing the dangers of enclosed activities.
                 </h3>
@@ -131,8 +123,10 @@
               <li>Recognising the establishments that checked their flow.</li>
               <li>Adding specified data of COVID-19 spread in a room.</li> -->
               <h3 class="mb-0">Visualualizando la UCS Satellite Database </h3> <!-- NOMBRE DEL PRIMER SUBTITULO-->
-              <img alt="image" class="img-fluid rounded-0" src="500.PNG">
-	      <p style="text-align: center;"><img src="./images/LEO_sats.png" alt="&eacute;Satélites activos en &oacute;rbita baja \ terrestre por debajo de 1000 km\ 01 May 2021" width="1300" height="500" /></p>
+              <img alt="image" class="img-fluid rounded-0" src="500.PNG"> 
+              <img alt="image" class="img-fluid rounded-0" src="./images/1000.PNG">
+              <img alt="image" class="img-fluid rounded-0" src="./images/40000.PNG"> 
+	            <p style="text-align: center;"><img src="./images/LEO_sats.png" alt="&eacute;Satélites activos en &oacute;rbita baja \ terrestre por debajo de 1000 km\ 01 May 2021" width="1300" height="500" /></p>
               <div> <p style="text-align: justify;">Con la información contenida en el dataset de la USC podemos construir una representación de la localización de los sat1elites 
                 según la altura a la cual se encuentran de la Tierra. Y como se observa en la imagen se arriba la mayoría se encuentra. Como se observa
                 en la figura de “Satélites activos en órbita baja \ terrestre por debajo de 1000 km\ 01 May 2021”,
@@ -141,8 +135,8 @@
                         </div>
               <h3 class="mb-0">Analizando la UCS Satellite Database. ¿Qué información podemos obetner? </h3> <!-- NOMBRE DEL SEGUNDO SUBTITULO-->
               <div class="subheading mb-3">Orbitas más utilizadas</div>
-              <img alt="image" class="center" src="./images/class.png">
-              <div><p style="text-align: justify;">Los 4084 satelites que la base de datos del USC nos proporciona presentan ya sea orbita de clase LEO, GEO, Eliptica o MEO.Si se realiza un histograma de frecuencias
+              <img alt="image" class="img-fluid rounded-0" src="./images/class.png">
+              <div><p style="text-align: justify;">Los 4084 satelites que la base de datos del USC nos proporciona orbitas de clase LEO, GEO, Eliptica o MEO.Si se realiza un histograma de frecuencias
                considerando el tipo de orbita, podemos observar que los satelites con orbitas tipo LEO son los más comunes con más de 3000 ejemplares. Las orbitas LEO o Low Earth Orbit se 
                 encuentran relativamente cerca de la superficie de la Tierra, a una altitud de menos de 1000 km, pero podría estar tan bajo como 160 km sobre la Tierra.
                 Seguido tenemos a los tipo GEO y por último a los tipo LEO</p> <!-- INSERTAR SUBTEXTO-->
@@ -155,7 +149,33 @@
                sin moverse. Como se ve en el histograma de longitudes estos se encuentran ampliamente repartidos por los dos hemisferios el planeta, siendo a los -100 grados, la coordenada 
                con mayor número de satélites a esa altura.</p> <!-- INSERTAR SUBTEXTO-->
                         </div>
-              <h3 class="mb-0">Viajando a Jupiter desde la Tierra en el 2026 </h3> <!-- NOMBRE DEL TERCER SUBTITULO-->
+              <div class="subheading mb-3">Satélites activos </div>
+
+               <img alt="image" class="img-fluid rounded-0" src="./images/satelites.png" width="800" height="500"/>
+              <div><p style="text-align:justify ;">Para determinar cuál es la cantidad de satélites en uso, se ocupó una población de 4084 satélites del dataset de la USC, en donde se obtuvieron tres tipos de muestras, 
+                para poder visualizar dichas muestras en porcentajes, se muestra una gráfica en forma de pastel,con el uso de esta gráfica pudimos hacer alusión a dos cosas que el 45.7% son los satélites que están activas asta nuestros días,
+                 el 40.5% no se sabe si está en uso o se consideraría basura espacial. </p></div>
+              <h3 class="mb-0">Basura espacial</h3> 
+              <div> <p style="text-align: justify;">
+               El espacio va en camino de convertirse en un basurero: satélites inservibles, partes de cohetes y herramientas. ¿Se puede recolectar la chatarra espacial? ¿A quién pone en peligro?
+               Al igual que Zulfikar Abbany en su publicación los investigadores realizan estas preguntas y para ello están trabajando para reducir las amenazas que plantean más de 20.000 objetos en el espacio.Pero la verdadera pregunta nace en 
+               ¿Por qué es peligrosa la basura espacial?, ¿se están creando grandes desprecios como en la tierra?, para poder resolver la primera pregunta con el suceso del 2009,un satélite comercial estadounidense Iridium se estrelló contra un satélite de comunicaciones ruso inactivo llamado Cosmos-2251, 
+               creando miles de nuevas piezas de metralla espacial que ahora amenazan a otros satélites en la órbita terrestre baja, la zona que se extiende hasta 2.000 kilómetros de altitud.
+               La investigadora Carolin Frueh de la Universidad Purdue en West Lafayette, nos dice que solo unos pocos choques espaciales incontrolados podrían generar suficientes escombros para desencadenar una cascada de fragmentos fuera de control, 
+               inutilizando el espacio cercano a la Tierra si seguimos así, llegaremos a un punto sin retorno. 
+              </p></div>
+              <img alt="image" class="img-fluid rounded-0" src="./images/basura.jpg" width="800" height="1500"/>
+              <h3 class="mb-0">Espacio sucio </h3> 
+              <div><p style="text-align:justify ;">Los científicos desde los 60 han estado preocupados por la basura espacial, esto empezó con un proyecto militar, el cual consistía en poner en órbitas unas agujas destinadas a permitir las comunicaciones por radio, por supuesto este revuelo fue pasado de alto 
+              y en 1963 fue lanzado con éxito creando un cinturón reflectante, en los siguientes tres años varios de las agujas se salieron de órbita.
+              Según la Lisa Ruth Rand, historiadora de la ciencia en Filadelfia, Pensilvania, y miembro de la Asociación Histórica Estadounidense y la NASA este fue uno de los ejemplos por mantener limpio el espacio.
+              Cada día, el ejército de los EE. UU. Emite un promedio de 21 advertencias de posibles colisiones espaciales. Es probable que esos números aumenten dramáticamente el próximo año, cuando la Fuerza Aérea encienda una nueva y poderosa instalación de radar en Kwajalein en el Océano Pacífico. 
+              Esa instalación permitirá al ejército estadounidense detectar objetos más pequeños que el límite actual de 10 centímetros para la órbita terrestre baja.
+              Desde del año 2000, grupos internacionales como el Comité de Coordinación Interinstitucional de Desechos Espaciales han desarrollado directrices para lograr la sostenibilidad espacial. 
+              Entre ellos se incluye la desactivación de satélites al final de su vida útil mediante la ventilación del combustible sobrante u otros materiales presurizados que podrían provocar explosiones. 
+              Los grupos intergubernamentales también recomiendan bajar los satélites a una profundidad suficiente en la atmósfera para que se quemen o se desintegren en 25 años.</p></div>
+
+              <h3 class="mb-0">Viajando a Jupiter desde la Tierra en el 2026 </h3> <!-- NOMBRE DEL QUINTO SUBTITULO-->
               <div> <p style="text-align: justify;">La misión espacial propuesta por nuestro equipo consiste en lanzar un repetidor interestelar desde la Tierra a Júpiter, con el fin de aumentar el rango de detección
                de las señales de las sondas espaciales que se encuentran a grandes distancias como son Vayaer 1, Voyager 2 y Pioner 11.
                Para realizar esta labor se requiere un receptor que tenga una antena receptora que sirva para captar la señal de las sondas interestelares, un circuito repetidor que amplifique
@@ -163,6 +183,7 @@
                 La ventana de lanzamiento se programó con ayuda del <a href="https://trajbrowser.arc.nasa.gov/">Trajectory Browser de la Nasa </a>,el cual se utilizó para obtener las fechas de lanzamiento y de asistencia gravitacional que la misión requiere para llegar a su destino. Adicionalmente se hizo uso de la paquetería
                  de <a href="https://docs.poliastro.space/en/stable/">Poliastro</a> para diseñar la trayectoria del viaje espacial.
                 </p></div>
+  
               <div> <p style="text-align: justify;">La misión consistirá en un viaje de ida sin retorno. Los cálculos del diseño de la trayectoria se realizaron considerando un vehículo de lanzamiento Atlas V-551. 
                 El recorrido de la nave desde la Tierra hasta Jupiter tendrá 3 maniobras, mismas que realizó la misión espacial <a href="https://www.nasa.gov/mission_pages/juno/main/index.html">Juno</a>en 2011:
                 </p></div>
