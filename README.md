@@ -16,14 +16,5 @@ Con este proyecto buscamos mostrar como las herramientas de la ciencia computaci
 También desarrollamos una misión espacial con objetivo de llegar a Júpiter y colocar un repetidor de señal interestelar con el fin de aumentar la distancia que una sonda puede transmitir a la Tierra, una vez que ha salido del sistema solar, permitiendo con esto explorar el espacio y obtener más específica de lo que hay más allá.
 
 ![e](./images/jupiter.png)
-### Who did you design this project for?
 
-### What was your inspiration for this project?
 
-### What challenges did you run into?
-
-### What accomplishments are you most proud of?
-
-### If you had more time, what features would you add to this project?
-
-### What did your team learn?
