@@ -2,22 +2,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <style>
-    .videoStarbucks{
-      position: relative;
-      bottom: 0px;
-      left: 80px;
+    .Image500{
+      width:325px;
     }
-    .videoClassroom{
-      position: relative;
-      bottom: 0px;
-      left: 80px;
+    .ImageSmall{
+      width:345px;
     }
+    .ImageBig{
+      width:645px;
+    }
+
     .figure1{
       padding-left:0em;
     }
     .figure2{
       padding-left:15em;
     }
+
+
+
   </style>
     <head>
         <meta charset="utf-8" />
@@ -32,9 +35,9 @@
           
           <nav>
             <ul>
-              <li><a href="#section-1"> <span><i class="fas fa-circle"></i> <strong>Descpricion</strong></span></a></li>
-              <li><a href="#section-7"><span><i class="fas fa-circle"></i> <strong>Solving the problem</strong></span></a></li>
-              <li><a href="#section-3"><span><i class="fas fa-circle"></i> <strong>Challenges</strong></span></a></li>
+              <li><a href="#section-1"> <span><i class="fas fa-circle"></i> <strong>Introducción</strong></span></a></li>
+              <li><a href="#section-3"><span><i class="fas fa-circle"></i> <strong>La problemática</strong></span></a></li>
+              <li><a href="#section-7"><span><i class="fas fa-circle"></i> <strong>Visualización del espacio</strong></span></a></li>
               <!--<li><a href="#section-8"><span><i class="fas fa-circle"></i> <strong>Ethical constraints</strong></span></a></li>-->
               <li><a href="#section-10"><span><i class="fas fa-circle"></i> <strong>Methodology</strong></span></a></li>
               <!--<li><a href="#section-2"><span><i class="fas fa-circle"></i> <strong>Simulation</strong></span></a></li>-->
@@ -56,66 +59,118 @@
            
             <h3 style="text-align: center;"><strong><em>Proyecto final de <a href="https://clubesdeciencia.mx/clubes-2021/">Clubes de Ciencia 2021</a>&nbsp;</em></strong></h3>
             
-            <div> <p style="text-align: justify;">La exploración espacial ha jugado un papel importante en la historia de la humanidad. Gracias a ellos cada uno de nosotros tiene al alcance de sus manos 
-              imágenes de objetos que se localizan a cientos o miles de kilómetros de distancia de nosotros y no solo eso, también nos ha llevado a pensar en viajar a otros
-              planetas o inclusive a otras galaxias. Pero dinos ¿realmente conoces que implica un viaje espacial o que ciencias están de tras de la uno? Siempre es importante
-              conocer los fundamentos y un poco de historia, por eso en el Club 18: 13,800 millones de años de viaje, la historia del Universo, nos platicaron acerca de cuáles
-              son los componentes principales del cosmos y cómo tenemos evidencia de ellos gracias a misiones espaciales como el telescopio Hubble o el satélite Planck. También 
-              vimos el papel de las futuras misiones como LISA y la detección de ondas gravitacionales.</p>   <!-- AÑADIR LINK A PAGINA DE COLABOCRACIÓN-->    
-            </div>
-            
-            <div class="subheading mb-3">Si quieres sumergirte un poco en lo que vimos estas dos semanas te recomendamos el siguiente video.</div> <!-- SUBTITULO DEL SEGUNDO SUBTITULO-->
-                        </div>
 
-            <p style="text-align: center;"><iframe width="560" height="314" src="//www.youtube.com/embed/VYxYuaDvdM0" allowfullscreen="allowfullscreen"></iframe></p>
 	    <section id="section-1">
-              <h2><i class="fas fa-plus-square"></i></i> Description</h2>
-                <div> <p style="text-align: justify;">Al estar en la Tierra estamos acostumbrados a ver maquinaria industrial: tractores, grúas, camiones, etc. Hemos adoptado estas máquinas como parte de nuestro ambiente y 
-		desgraciadamente, en ocasiones abruman nuestro entorno. El hecho de que no podamos ver los objetos que orbitan nuestro planeta no significa que su presencia sea mínima. 
-		Para nuestro challenge, queremos crear una “data visualization tool” que ayude a visualizar la cantidad de satélites y demás objetos que vuelan alrededor de nuestro planeta porque 
-                a final de cuenta son los tractores, grúas y camiones de nuestro espacio exterior. Trabajaremos con un dataset que contiene los satélites que se han mandado al espacio durante los últimos 
-~ 30 años (contiene información de su periodo, apogeo, perigeo) para crear las gráficas adecuadas con la intención de compartir el estado de nuestro espacio exterior.</p> 
-		
-	      </div>
-              <!-- <h3>According to the conclusion of Lu's study [1], there's an existing risk of COVID-19 infection in relation with indoor air flow.
-                With this web page, our main goal is to create awareness among society and prevent new transmissions of coronavirus, by showing the dangers of enclosed activities.
-                </h3>
-                <h3>Due to the rise in air temperatures of summer heat, local restaurants and shops rely on air conditioning to cool down indoor environments.
-                  As they begin to reopen, society members must learn the risks of the fresh and infected indoor airflow.</h3>
-               -->
+              <h2><i class="fas fa-plus-square"></i></i> Introducción</h2>
+              <div> <p style="text-align: justify;">La exploración espacial ha jugado un papel importante en la historia de la humanidad. Gracias a ellos cada uno de nosotros tiene al alcance de sus manos 
+                imágenes de objetos que se localizan a cientos o miles de kilómetros de distancia de nosotros y no solo eso, también nos ha llevado a pensar en viajar a otros
+                planetas o inclusive a otras galaxias. Pero dinos ¿realmente conoces que implica un viaje espacial o que ciencias están de tras de la uno? Siempre es importante
+                conocer los fundamentos y un poco de historia, por eso en el Club 18: 13,800 millones de años de viaje, la historia del Universo, nos platicaron acerca de cuáles
+                son los componentes principales del cosmos y cómo tenemos evidencia de ellos gracias a misiones espaciales como el telescopio Hubble o el satélite Planck. También 
+                vimos el papel de las futuras misiones como LISA y la detección de ondas gravitacionales.</p>   <!-- AÑADIR LINK A PAGINA DE COLABOCRACIÓN-->    
+              </div>
+              
+              <div class="subheading mb-3">Si quieres sumergirte un poco en lo que vimos estas dos semanas te recomendamos el siguiente video.</div> <!-- SUBTITULO DEL SEGUNDO SUBTITULO-->
+                          </div>
+  
+              <p style="text-align: center;"><iframe width="560" height="314" src="//www.youtube.com/embed/VYxYuaDvdM0" allowfullscreen="allowfullscreen"></iframe></p>
+                        
+                
             </section>
+              <section id="section-3">
+                <h2><i class="fas fa-plus-square"></i> La problemática</h2>
+              </section>
+  
+              
+  
+
+
+
+
             <section id="section-7">
-              <h2><i class="fas fa-plus-square"></i> Solving the problem</h2>
+              <h2><i class="fas fa-plus-square"></i>Visualización del espacio</h2>
+              <h3>Distribución de satélites con órbitas hasta 500 km</h3>
+              <img alt="image" class="Image500" src="./images/0-500Raw.PNG">
+              <img alt="image" class="Image500" src="./images/0-500Purposes.PNG">
+              <img alt="image" class="Image500" src="./images/0-500Users.PNG">
+              <div> <p style="text-align: justify;">Según la UCS Satellite Database en esta órbita se mantienen alrededor de 570 satélites, en su mayoría con un propósito comercial destinado a las comunicaciones.
+              También notamos una alta presencia de satélites militares y gubernamentales, al igual que en la Tierra, existen las bienes y raices en el espacio, lamentablemente la presencia de satélites destinados a conocer el espacio y nuestro mundo no son abundantes a esta altura.<div><strong>Pero quizás los encontremos en otras órbitas...</strong></div></p>   <!-- AÑADIR LINK A PAGINA DE COLABOCRACIÓN-->    
+              </div>
+              <h3>Distribución de satélites con órbitas de 500 km hasta 1000 km</h3>
+              <img alt="image" class="Image500" src="./images/500-1000Raw.PNG">
+              <img alt="image" class="Image500" src="./images/500-1000Purposes.PNG">
+              <img alt="image" class="Image500" src="./images/500-1000Users.PNG">
+              <div> <p style="text-align: justify;">En [itas e 500 a 1000 km encontramos un caso muy particular, ya que los satélites de Starlink mandados al espacio por SpaceX, son por mucho, los objetos más abundantes en esta zona.
+              Nuevamente se puede apreciar la privatización del espacio.<div><strong> Pero, ¿Qué pasaría si omitimos a Starlink?.</strong></div> </p>   <!-- AÑADIR LINK A PAGINA DE COLABOCRACIÓN-->    
+              </div>
+              <img alt="image" class="Image500" src="./images/500-1000RawNoStarlink.PNG">
+              <img alt="image" class="Image500" src="./images/500-1000PurposesNoStarlink.PNG">
+              <div> <p style="text-align: justify;">Vemos que los cambios son abrumadores, ya que la ibservación de la Tierra pasa de sere el 25% a ser el mayor porcentaje con 52.8%. Un claro ejemplo de la inmensa cantidad de maquinaria privada que hay en estas órbita.</strong></div> </p>   <!-- AÑADIR LINK A PAGINA DE COLABOCRACIÓN-->    
+              </div>
+              <h3>Distribución de satélites con órbitas de 1000 km hasta 10000 km</h3>
+              <img alt="image" class="Image500" src="./images/1000-10000Raw.PNG">
+              <img alt="image" class="Image500" src="./images/1000-10000Purposes.PNG">
+              <img alt="image" class="Image500" src="./images/1000-10000Users.PNG">
+              <div> <p style="text-align: justify;">Nuevamente vemos la gran presencia de satéites comerciales. En un mundo tan conectado como en el que tenemos hoy en día es dificil materializar la cantidad de máquinas que hay flotando a nuestro alrededor,
+              este rango de altitudes es otro ejemplo de cómo y dónde se distribuyen las telecomunicaciones, es importante estar conectados pero también es importante tener satélites para conocer nuestro propio planeta y el espacio exterior.
+            <strong>La diferencia en la cantidad de satélites que cumplen esos proósitos es sorpendente.</strong></p>   <!-- AÑADIR LINK A PAGINA DE COLABOCRACIÓN-->    
+              </div>
+              <h3>Distribución de satélites con órbitas de 5000 km hasta 40000 km</h3>
+              <img alt="image" class="Image500" src="./images/5000-40000Raw.PNG">
+              <img alt="image" class="Image500" src="./images/5000-40000Purposes.PNG">
+              <img alt="image" class="Image500" src="./images/5000-40000Users.PNG">
+              <div> <p style="text-align: justify;">Avanzamos en la altura y no vemos un cambio radical en la distribución, vemos una gran cantidad de satélites en lo que se conoce como la Órbita Geosincrónica, en la cual se ponen satélites que sigan 
+                el movimiento de la tierra sincrónicamente. Algún día la tecnología en la Tierra va a alcanzar la de los satélites y será necesario cambiarlos. 
+                Suena fácil, sin embargo, los antiguos satélites pasarían a ser parte de la basura espacial.
+            <strong> Estaríamos generando un espacio de objetos inutilizables alrededor de nosotros.</strong></p>   <!-- AÑADIR LINK A PAGINA DE COLABOCRACIÓN-->    
+              </div>
+              <h3>Distribución de satélites con órbitas de 40000 km hasta 165000 km</h3>
+              <img alt="image" class="Image500" src="./images/40000-165000Raw.PNG">
+              <img alt="image" class="Image500" src="./images/40000-165000Purpose.PNG">
+              <img alt="image" class="Image500" src="./images/40000-165000Users.PNG">
+              <div> <p style="text-align: justify;">Hemos llegado a las órbitas más lejanas, donde pocos satélites se encuentran. Como vimos lo vimos en el Club, a mayores alturas se tiene menos contaminación que puede interferir con la exploración espacial. A diferencia de las otras órbitas 
+                en estas no hay satélites de comunicaciones, todo es dirigido hacia la ciencia espacial y en su maypría es por parte de esfuerzos gubernamentales. El comparar 30 satélites científicos en esta órbita con los 1633 de comunicaciones a 500 km tal vez no sea una comparación valiosa, 
+                
+            <strong>pero nos dice hacia donde van los esfuerzos en tecnología y cómo se distribuirá en un futuro la basura espacial.</strong></p>   <!-- AÑADIR LINK A PAGINA DE COLABOCRACIÓN-->    
+              </div>
+
+              <h3>Distribución de las órbitas de los satélites</h3>
+              <img alt="image" class="ImageSmall" src="./images/0-30.PNG">
+              <img alt="image" class="ImageBig" src="./images/0-30Graph.PNG">
+              <strong> Inclinación de 0 a 30 grados</strong> <br><br>
+
+              <img alt="image" class="ImageSmall" src="./images/30-60.PNG">
+              <img alt="image" class="ImageBig" src="./images/30-60GraphCS.PNG"><strong> Inclinación de 30 a 60 grados</strong> <br>
+              <img alt="image" class="ImageBig" src="./images/30-60Graph.PNG"><br><strong> En la gráfica de 30 a 60 grados se encuentran escondidos 
+                sobre una misma inclinación los satélites de Starlink, esta es una comparativa de cómo sería si no estuvieran.
+              </strong> 
+              <br><br>
+
+              <img alt="image" class="ImageSmall" src="./images/60-90.PNG">
+              <img alt="image" class="ImageBig" src="./images/60-90Graph.PNG">
+              <strong> Inclinación de 60 a 90 grados</strong> <br>
               <!-- <h3>Identify indoor designs that decrease the risk of contagion according to ventilation mass flows</h3>
               <ul><h3>
                 <li>Air-Flow increases COVID-19 spread in close proximity.</li>
                 <li>Social distancing strategies often disrupt human activities.</li>
                 <li>Can fine-tuned changes to built environments reduce infection risk more efficiently?</li>
               </h3> -->
-              </ul>
+            
               
             </section>
 
 
 
-            <section id="section-3">
-              <h2><i class="fas fa-plus-square"></i> Challenges</h2>
-              <!-- <ul><h3>
-                <li>Lack of data for a valid assessment.</li>
-                <li>Inherent uncertainty in human behavior.</li>
-                <li>Mathematical constraints in estimating model parameters.</li>
-                <li>Developing a user-friendly UI to obtain this risks.</li>
-              </h3>
-              </ul>  -->
-            </section>
 
-            
-
-
-          </section>
           <section id="section-10">
-            <h2><i class="fas fa-plus-square"></i> Methodology</h2>
-          
+            <h2><i class="fas fa-plus-square"></i> Metodolgía</h2>
+            Para crear este proyecto tomamos los datos de una base de datos de la Union of Concerned Scientists, en la cual se describe a detalle los 4084 satélites que actualmente orbitan nuestro planeta.
+            Incluyendo su país de origen, el propósito y otros detalles de operación.<br><br>
+            La base de datos contiene 28 tipos de datos sobre los satélites, como su masa, potencia, fecha de lanzamiento, esperanza de vida. También detalles sobre su órbita como su apogeo, perigeo, inclinación y periodo.
+            <br><br>
+            Para crear las gráficas de puntos tomamos la media entre perigeos y apogeos para saber la altura media. Posteriormente usamos la librería de Matplotlib para graficar los puntos en coordenadas polares, el ángulo está dado por números aleatorios para distribuir los satelites homogeneamente.  
+            <br><br>
+            Adicionalmente en la construcción del análisis de los datos de la USC se empleó las librerías de seaborn y plolty para la construcción de gráficas. Para cumplir con el reto del Club 18, se empleó la librería de Poliastro para el diseño de nuestra misión espacial propuesta.
           </section>
 
 
@@ -125,28 +180,25 @@
           </section>
           <section id="section-9">
             <h2><i class="fas fa-plus-square"></i> Next steps</h2>
-	     <div> <p style="text-align: justify;">La Base de datos de satélites de la Unión de Científicos Preocupados (UCS), es un listado de los más de 4.084 satélites 
-	     operativos actualmente en órbita alrededor de la Tierra. Esta es na herramienta de investigación para especialistas y no especialistas mediante la recopilación 
-		     de información de código abierto sobre satélites operativos y presentarla en un formato que pueda manipularse fácilmente para la investigación y el análisis.</p>
+            <ul><h3>
               <!-- <li>Enable consumers to scan their indoors to proceed with a personalised simulation.</li>
               <li>Offer standard structures for a quicker simulation.</li>
               <li>Recognising the establishments that checked their flow.</li>
               <li>Adding specified data of COVID-19 spread in a room.</li> -->
               <h3 class="mb-0">Visualualizando la UCS Satellite Database </h3> <!-- NOMBRE DEL PRIMER SUBTITULO-->
-              <img alt="image" class="img-fluid rounded-0" src="500.PNG"> 
               <img alt="image" class="img-fluid rounded-0" src="./images/1000.PNG">
               <img alt="image" class="img-fluid rounded-0" src="./images/40000.PNG"> 
-	            <p style="text-align: center;"><img src="./images/LEO_sats.png" alt="&eacute;Satélites activos en &oacute;rbita baja \ terrestre por debajo de 1000 km\ 01 May 2021" width="1300" height="500" /></p>
+	            <p style="text-align: center;"><img src="./images/LEO_sats.png" alt="&eacute;Satélites activos en &oacute;rbita baja \ terrestre por debajo de 1000 km\ 01 May 2021"  width="800" /></p>
               <div> <p style="text-align: justify;">Con la información contenida en el dataset de la USC podemos construir una representación de la localización de los sat1elites 
                 según la altura a la cual se encuentran de la Tierra. Y como se observa en la imagen se arriba la mayoría se encuentra. Como se observa
                 en la figura de “Satélites activos en órbita baja \ terrestre por debajo de 1000 km\ 01 May 2021”,
                 la mayor concentración de satélites radica entre los 100 y 400 km por encima de la Tierra, siendo evidente que debajo de la linea de Karman
                 que límite entre atmósfera y espacio exterior, no hay satelites.</p> <!-- INSERTAR SUBTEXTO-->
                         </div>
-              <h3 class="mb-0">Analizando la UCS Satellite Database. ¿Qué información podemos obetner? </h3> <!-- NOMBRE DEL SEGUNDO SUBTITULO-->
+              <h3 class="mb-0">Analizando la UCS Satellite Database. ¿Qué información podemos obtener? </h3> <!-- NOMBRE DEL SEGUNDO SUBTITULO-->
               <div class="subheading mb-3">Orbitas más utilizadas</div>
               <img alt="image" class="img-fluid rounded-0" src="./images/class.png">
-              <div><p style="text-align: justify;">En el dataset se puede extraer que los satelites cuentan con orbitas ya sean LEO, GEO, Eliptica o MEO. Si se realiza un histograma de frecuencias
+              <div><p style="text-align: justify;">Los 4084 satelites que la base de datos del USC nos proporciona orbitas de clase LEO, GEO, Eliptica o MEO.Si se realiza un histograma de frecuencias
                considerando el tipo de orbita, podemos observar que los satelites con orbitas tipo LEO son los más comunes con más de 3000 ejemplares. Las orbitas LEO o Low Earth Orbit se 
                 encuentran relativamente cerca de la superficie de la Tierra, a una altitud de menos de 1000 km, pero podría estar tan bajo como 160 km sobre la Tierra.
                 Seguido tenemos a los tipo GEO y por último a los tipo LEO</p> <!-- INSERTAR SUBTEXTO-->
@@ -159,7 +211,7 @@
                sin moverse. Como se ve en el histograma de longitudes estos se encuentran ampliamente repartidos por los dos hemisferios el planeta, siendo a los -100 grados, la coordenada 
                con mayor número de satélites a esa altura.</p> <!-- INSERTAR SUBTEXTO-->
                         </div>
-              <div class="subheading mb-3">Satélites activos </div>
+               <div class="subheading mb-3">Satélites activos </div>
 
                <img alt="image" class="img-fluid rounded-0" src="./images/satelites.png" width="800" height="500"/>
               <div><p style="text-align:justify ;">Para determinar cuál es la cantidad de satélites en uso, se ocupó una población de 4084 satélites del dataset de la USC, en donde se obtuvieron tres tipos de muestras, 
@@ -169,21 +221,17 @@
               <div> <p style="text-align: justify;">
                El espacio va en camino de convertirse en un basurero: satélites inservibles, partes de cohetes y herramientas. ¿Se puede recolectar la chatarra espacial? ¿A quién pone en peligro?
                Al igual que Zulfikar Abbany en su publicación los investigadores realizan estas preguntas y para ello están trabajando para reducir las amenazas que plantean más de 20.000 objetos en el espacio.Pero la verdadera pregunta nace en 
-               ¿Por qué es peligrosa la basura espacial?, ¿se están creando grandes desprecios como en la tierra?, para poder resolver la primera pregunta con el suceso del 2009,un satélite comercial estadounidense Iridium se estrelló contra un satélite de comunicaciones ruso inactivo llamado Cosmos-2251, 
-               creando miles de nuevas piezas de metralla espacial que ahora amenazan a otros satélites en la órbita terrestre baja, la zona que se extiende hasta 2.000 kilómetros de altitud.
-               La investigadora Carolin Frueh de la Universidad Purdue en West Lafayette, nos dice que solo unos pocos choques espaciales incontrolados podrían generar suficientes escombros para desencadenar una cascada de fragmentos fuera de control, 
-               inutilizando el espacio cercano a la Tierra si seguimos así, llegaremos a un punto sin retorno. 
+               ¿Por qué es peligrosa la basura espacial?, ¿se están creando grandes desprecios como en la tierra?, para ello nos remontamos unos minutos 2009 en el espacio, cuando un satélite comercial estadounidense Iridium se estrelló contra un satélite de comunicaciones ruso inactivo llamado Cosmos-2251, 
+               creando miles de nuevas piezas espaciales que ahora amenazan a otros satélites en la órbita terrestre baja, la zona que se extiende hasta 2.000 kilómetros de altitud.
+              
               </p></div>
               <img alt="image" class="img-fluid rounded-0" src="./images/basura.jpg" width="800" height="1500"/>
               <h3 class="mb-0">Espacio sucio </h3> 
               <div><p style="text-align:justify ;">Los científicos desde los 60 han estado preocupados por la basura espacial, esto empezó con un proyecto militar, el cual consistía en poner en órbitas unas agujas destinadas a permitir las comunicaciones por radio, por supuesto este revuelo fue pasado de alto 
               y en 1963 fue lanzado con éxito creando un cinturón reflectante, en los siguientes tres años varios de las agujas se salieron de órbita.
-              Según la Lisa Ruth Rand, historiadora de la ciencia en Filadelfia, Pensilvania, y miembro de la Asociación Histórica Estadounidense y la NASA este fue uno de los ejemplos por mantener limpio el espacio.
               Cada día, el ejército de los EE. UU. Emite un promedio de 21 advertencias de posibles colisiones espaciales. Es probable que esos números aumenten dramáticamente el próximo año, cuando la Fuerza Aérea encienda una nueva y poderosa instalación de radar en Kwajalein en el Océano Pacífico. 
               Esa instalación permitirá al ejército estadounidense detectar objetos más pequeños que el límite actual de 10 centímetros para la órbita terrestre baja.
-              Desde del año 2000, grupos internacionales como el Comité de Coordinación Interinstitucional de Desechos Espaciales han desarrollado directrices para lograr la sostenibilidad espacial. 
-              Entre ellos se incluye la desactivación de satélites al final de su vida útil mediante la ventilación del combustible sobrante u otros materiales presurizados que podrían provocar explosiones. 
-              Los grupos intergubernamentales también recomiendan bajar los satélites a una profundidad suficiente en la atmósfera para que se quemen o se desintegren en 25 años.</p></div>
+              </p></div>
 
               <h3 class="mb-0">Viajando a Jupiter desde la Tierra en el 2026 </h3> <!-- NOMBRE DEL QUINTO SUBTITULO-->
               <div> <p style="text-align: justify;">La misión espacial propuesta por nuestro equipo consiste en lanzar un repetidor interestelar desde la Tierra a Júpiter, con el fin de aumentar el rango de detección
@@ -203,10 +251,10 @@
                   	<li>Fase de crucero interior 3: Maniobra de inserción en la órbita Júpiter.</li>
                   </ul>
               <img alt="image" class="img-fluid rounded-0" src="./images/jupiter.png" width="800" height="500"/>
-	<p style="text-align: center;">Para ver el código utilizado para crear las gráficas y representaciones incluidas en esta página web, así como otras graficas que se realizaron pero no se incluyeron en la 
-			página web por el espacio puede visitar nuestro <a href="https://colab.research.google.com/drive/1kv6LmJrnDQrLQbMJWyFA15seLS3uIz3T?usp=sharing">colab</a>&nbsp;</em></strong> </p>
               
-              
+              <p style="text-align: center;">Para ver el código utilizado para crear las gráficas y representaciones incluidas en esta página web, así como otras graficas que se realizaron pero no se incluyeron en la 
+                página web por el espacio puede visitar nuestro <a href="https://colab.research.google.com/drive/1kv6LmJrnDQrLQbMJWyFA15seLS3uIz3T?usp=sharing">colab</a>&nbsp;</em></strong> </p>
+                        
               
              
               
@@ -219,8 +267,8 @@
 
 
             <section id="section-5">
-              <h2><i class="fas fa-plus-square"></i> Resources</h2>
-              
+              <h2><i class="fas fa-plus-square"></i> Bibliografía</h2>
+              Satellite Database. (2021, 1 mayo). Union of Concerned Scientists. https://www.ucsusa.org/resources/satellite-database
             </section>
               
 
@@ -228,7 +276,7 @@
 
             </section>
             <section id="section-6">
-              <h2><i class="fas fa-plus-square"></i> The team</h2>
+              <h2><i class="fas fa-plus-square"></i> El equipo</h2>
               <div class="content p-3">
             <h3><strong>Alejandro Ruiz Diego</strong></h3>
             <p>Estudiante </p>
@@ -281,7 +329,7 @@
             </div>
             
            </div>
-           Copyright &copy; Pink Code
+           Copyright &copy; 
           </footer>
     </body>
 </html>
